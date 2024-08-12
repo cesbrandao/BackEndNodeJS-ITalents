@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(158, 183, 236);
+    margin: 0%;
+}
+
+h1 {
+    color: rgb(44, 44, 160);
+    text-align: center;
+}
+
+#total {
+    position: absolute;
+    display: none;
+    margin: 0%;
+    padding: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#total img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    background-color: rgb(214, 231, 230);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 25%;
+    margin: 1%;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    display: flex;
+}
